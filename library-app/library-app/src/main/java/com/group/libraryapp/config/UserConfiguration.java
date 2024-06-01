@@ -1,21 +1,15 @@
 package com.group.libraryapp.config;
 
-import com.group.libraryapp.repository.user.UserRepository;
-import com.group.libraryapp.service.user.UserService;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.jdbc.core.JdbcTemplate;
-
 //@Configuration
-public class UserConfiguration {
-
+//public class UserConfiguration {
+//
 //    @Bean
-    public UserRepository userRepository(JdbcTemplate jdbcTemplate){
-        return new UserRepository(jdbcTemplate);
-    }
-
+//    public UserJdbcRepository userRepository(JdbcTemplate jdbcTemplate){
+//        return new UserJdbcRepository(jdbcTemplate);
+//    }
+//
 //    @Bean
-    public UserService userService(UserRepository userRepository){
-        return new UserService(userRepository);
-    }
-}
+//    public UserService userService(UserJdbcRepository userRepository){
+//        return new UserService(userRepository);
+//    }
+//}
